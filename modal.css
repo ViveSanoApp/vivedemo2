@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cinzel+Decorative:wght@400;700&family=Cormorant&family=Cormorant+Infant:wght@500&family=Cutive+Mono&family=DynaPuff:wght@500;600;700&family=Edu+TAS+Beginner&family=Lobster&family=Poppins:wght@100;300;600&display=swap');
+
+
+
+body{
+background-color:rgba(0, 0, 0,0.5);
+
+}
+
+
+
+
+
+
+
+
+
+
+.modal-container{
+    position:static;
+    top:0;
+    z-index:1000;
+    width:100%;
+
+
+
+ 
+  
+  
+    }
+    
+    .modal{
+    width:80%;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    transition: trasnform 1s;
+    transform:translateY(0%);
+    box-shadow:1px 2px 2px 2px rgb(0, 183, 255);
+    border-radius:10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+    }
+  
+  
+   
+  
+  
+    .close{
+     position: absolute;
+     right:2px;
+     top:2px;
+     padding:7px;
+     text-align: center;
+     background-color: #e00000;
+     color: #fff;
+     border-radius:50%;
+     text-decoration: none;
+     cursor: pointer;
+    }
+  
+  
+.img1{
+width:210px;
+border-radius:10%;
+margin:100px auto;
+ background-size:cover;
+background-repeat: no-repeat;
+  
+}
+
+.img1 .img1--opac{
+border-radius: 70%;
+}
+
+
+.kira{
+width:210px;
+border-radius:60%;
+}
+
+.cem{
+border-radius:60%;
+}
+
+
+.galenos{
+width:190px;
+border-radius:60%;
+margin:60px auto;
+}
+
+.ips{
+width:240px;
+border-radius:60%;
+margin:90px auto;
+}
+
+
+
+
+.title{
+font-family: 'Cinzel Decorative', cursive;
+font-weight:500;
+font-size:1rem;
+border-bottom:1px solid rgb(255, 81, 0);
+display: inline;
+margin-bottom:20px;
+}
+
+.paragraph{
+font-family: 'Poppins', sans-serif;
+border-bottom:1px solid #0adaff;
+display:inline-block;
+}
+  
